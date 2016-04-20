@@ -1,0 +1,185 @@
+<html>
+
+<head>
+ <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.16.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.16.0/mapbox-gl.css' rel='stylesheet'/>
+  <link rel="stylesheet" href="https://d27ue5shkjha1u.cloudfront.net/assets/styles/577ceb6e7b3a3cd.css">
+  <link type="txt/css" rel="stylesheet" href="Accueil.css">
+  <link rel="icon" href="https://d27ue5shkjha1u.cloudfront.net/assets/images/favicon.ico" type="image/x-icon">
+  
+</head>
+
+<body>
+  <div class="topNavigation" data-reactid=".0.0">
+    <div class="topNavigation-left" data-reactid=".0.0.0">
+      <div class="topNavigation-panelContainer" data-reactid=".0.0.0.0">
+        <a class="contextDropdown ignore-react-onclickoutside" data-reactid=".0.0.0.0.0">
+          <span class="contextDropdown-assemblyCity" data-reactid=".0.0.0.0.0.0">Narbonne</span>
+          <span class="contextDropdown-assemblyName" data-reactid=".0.0.0.0.0.1">IN'ESS</span>
+          <span class="icon icon-angle-down" data-reactid=".0.0.0.0.0.2"></span>
+        </a>
+      </div>
+    </div>
+    <div class="topNavigation-right" data-reactid=".0.0.1">
+      <div class="topNavigation-panelContainer" data-reactid=".0.0.1.0">
+        <a href="panier.html" data-bypass="true" class="basketDropdown ignore-react-onclickoutside" data-reactid=".0.0.1.0.0">
+          <span class="basketDropdown-icon icon icon-lrqdo-panier" data-reactid=".0.0.1.0.0.0"></span>
+          <span class="basketDropdown-count" data-reactid=".0.0.1.0.0.1">4</span>
+          <span class="basketDropdown-text" data-reactid=".0.0.1.0.0.2">Panier</span>
+          <span class="basketDropdown-caret icon icon-angle-down" data-reactid=".0.0.1.0.0.3"></span>
+        </a>
+      </div>
+      <a href="/fr/messages" class="topNavigation-link" data-reactid=".0.0.1.1">
+        <span class="icon icon-envelope-alt" data-reactid=".0.0.1.1.0"></span>
+        <span data-reactid=".0.0.1.1.1">Messages</span>
+      </a>
+      <div class="topNavigation-panelContainer" data-reactid=".0.0.1.2">
+        <a href="/fr/configuration/account/identity" class="helpDropdown bypass ignore-react-onclickoutside" data-reactid=".0.0.1.2.0">
+          <span class="helpDropdown-icon icon icon-question-circle" data-reactid=".0.0.1.2.0.0"></span>
+          <span class="helpDropdown-text" data-reactid=".0.0.1.2.0.1">Aide et conseils</span>
+          <span class="helpDropdown-caret icon icon-angle-down" data-reactid=".0.0.1.2.0.2"></span>
+        </a>
+      </div>
+      <div class="topNavigation-panelContainer" data-reactid=".0.0.1.3">
+        <a href="/fr/configuration/account/identity" class="userDropdown bypass ignore-react-onclickoutside" data-reactid=".0.0.1.3.0">
+          <img class="userDropdown-profilePicture" src="img/default-member.svg" height="30" width="30" alt="" data-reactid=".0.0.1.3.0.0">
+          <span class="userDropdown-userName" data-reactid=".0.0.1.3.0.1">
+            <span data-reactid=".0.0.1.3.0.1.0">kevin</span>
+            <span data-reactid=".0.0.1.3.0.1.1"> </span>
+            <span data-reactid=".0.0.1.3.0.1.2">jean</span>
+          </span>
+          <span class="icon icon-angle-down" data-reactid=".0.0.1.3.0.2"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="leftNavigation" data-reactid=".0.1">
+    <a class="leftNavigationLink" href="https://laruchequiditoui.fr/fr/assemblies/5830" data-reactid=".0.1.0">
+      <span class="leftNavigationLink-content" data-reactid=".0.1.0.0">
+        <img src="img/icon-hpruche.svg" alt="" data-reactid=".0.1.0.0.0">
+        <img class="leftNavigationLink-activeImage" src="img/icon-hpruche-active.svg" alt="" data-reactid=".0.1.0.0.1">
+        <span class="leftNavigationLink-text" data-reactid=".0.1.0.0.2">Accueil</span>
+      </span>
+      <span class="leftNavigationLink-activeIndicator" data-reactid=".0.1.0.1">
+        <svg version="1.1" x="0px" y="0px" viewBox="0 0 11 200" data-reactid=".0.1.0.1.0">
+          <polygon fill="#1D1D1B" points="0,0 0,100 0,200 11,200 11,111 0,100 11,89 11,0 " data-reactid=".0.1.0.1.0.0"></polygon>
+        </svg>
+      </span>
+    </a>
+    <a class="leftNavigationLink" href="https://laruchequiditoui.fr/fr/assemblies/5830/products" data-reactid=".0.1.1">
+      <span class="leftNavigationLink-content" data-reactid=".0.1.1.0">
+        <img src="img/icon-distribution.svg" alt="" data-reactid=".0.1.1.0.0">
+        <img class="leftNavigationLink-activeImage" src="img/icon-distribution-active.svg" alt="" data-reactid=".0.1.1.0.1">
+        <span class="leftNavigationLink-text" data-reactid=".0.1.1.0.2">Vente</span>
+      </span>
+      <span class="leftNavigationLink-activeIndicator" data-reactid=".0.1.1.1">
+        <svg version="1.1" x="0px" y="0px" viewBox="0 0 11 200" data-reactid=".0.1.1.1.0">
+          <polygon fill="#1D1D1B" points="0,0 0,100 0,200 11,200 11,111 0,100 11,89 11,0 " data-reactid=".0.1.1.1.0.0"></polygon>
+        </svg>
+      </span>
+    </a>
+    <a class="leftNavigationLink" href="https://laruchequiditoui.fr/fr/assemblies/5830/farms" data-reactid=".0.1.2">
+      <span class="leftNavigationLink-content" data-reactid=".0.1.2.0">
+        <img src="img/icon-producers.svg" alt="" data-reactid=".0.1.2.0.0">
+        <img class="leftNavigationLink-activeImage" src="img/icon-producers-active.svg" alt="" data-reactid=".0.1.2.0.1">
+        <span class="leftNavigationLink-text" data-reactid=".0.1.2.0.2">Producteurs</span>
+      </span>
+      <span class="leftNavigationLink-activeIndicator" data-reactid=".0.1.2.1">
+        <svg version="1.1" x="0px" y="0px" viewBox="0 0 11 200" data-reactid=".0.1.2.1.0">
+          <polygon fill="#1D1D1B" points="0,0 0,100 0,200 11,200 11,111 0,100 11,89 11,0 " data-reactid=".0.1.2.1.0.0"></polygon>
+        </svg>
+      </span>
+    </a>
+    <a class="leftNavigationLink" href="/fr/assemblies/5830/discussions" data-reactid=".0.1.3">
+      <span class="leftNavigationLink-content" data-reactid=".0.1.3.0">
+        <img src="img/icon-discussions.svg" alt="" data-reactid=".0.1.3.0.0">
+        <img class="leftNavigationLink-activeImage" src="img/icon-discussions-active.svg" alt="" data-reactid=".0.1.3.0.1">
+        <span class="leftNavigationLink-text" data-reactid=".0.1.3.0.2">Discussions</span>
+      </span>
+      <span class="leftNavigationLink-activeIndicator" data-reactid=".0.1.3.1">
+        <svg version="1.1" x="0px" y="0px" viewBox="0 0 11 200" data-reactid=".0.1.3.1.0">
+          <polygon fill="#1D1D1B" points="0,0 0,100 0,200 11,200 11,111 0,100 11,89 11,0 " data-reactid=".0.1.3.1.0.0"></polygon>
+        </svg>
+      </span>
+    </a>
+  </div>
+  <div class="pusher"><div id="banner-region"></div><header></header><p class="breadcrumb"></p><div class="pages"><div><div class="pageHeader">
+      <div class="main">
+
+      </div>
+  </div>
+
+
+  <div class="main">
+    <div class="hive-page-header color-turquoise2">
+    <h1 class="title">Ruche Narbonne</h1>
+    <p class="address">IN'ESS</p>
+    <p class="hours">
+        </p><div id="timeslots-region"><p class="assemblyTimeslot">        Achat en ligne, prochaine distribution le <b>vendredi 8 avril de 17:30 à 19:00</b>
+
+</p></div>
+</div>
+<div class="row">
+<div class="col-md-8 col-md-offset-1">
+<div id="distribution-region"><div><div class="hive-page-section">
+
+
+        <div class="box box-distribution-message">
+            <div class="box-header" style="background-image: url('https://s3-eu-west-1.amazonaws.com/foodassembly/assets/images/headers/salad2.header.jpg')">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <p class="title">
+                            <span class="distribution">Distribution du </span><span class="date">vendredi 8 avril</span>
+                        </p>
+                    </div>
+                    <div class="col-sm-5">
+                        <p>
+                            <a href="https://laruchequiditoui.fr/fr/assemblies/5830/collections/34181/products" class="button button--primary button--large button--block pull-right btn-chooseProducts">Choisir les produits</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="date">
+                            La vente est ouverte jusqu'au mercredi 6 avril
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-content">
+                    <p>Un petit clic pour bien remplir votre panier de bons produits locaux de qualité....A vous de jouer!
+              <br>A vendredi prochain.
+              <br>Florence et Karine.</p>
+            </div>
+        </div>
+</div>
+</div></div>
+</div>
+    <div id="alert" class="col-md-2"> 7 commandes sont actuellement en attentes de livreurs
+      <div class="clearfix"></div>
+      <div id='map' class="span2"></div>
+    </div>
+
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 43.1833, lng: 3},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+  </div>
+</div>
+  </div></div><footer></footer></div>
+  <div id="backdrop"></div>
+  <div id="fullscreen-modal"></div>
+</body>
+
+</html>

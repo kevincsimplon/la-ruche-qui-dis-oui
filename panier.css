@@ -1,0 +1,244 @@
+
+body{
+  background-color: #FFE8D2;
+}
+#map {
+  height: 300px;
+  width: 470px;
+  border-radius: 3px;
+}
+
+
+#datepicker{
+
+}
+/*  top nav*/
+.topNavigation {
+    background: #FFF;
+    box-shadow: 0 2px rgba(45,40,70,.2);
+    height: 48px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.topNavigation-left {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.topNavigation-panelContainer {
+    display: inline-block;
+    position: relative;
+    z-index: 999;
+}
+.topNavigation-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.contextDropdown {
+    color: #5c272f;
+    cursor: pointer;
+    display: inline-block;
+    padding: 9px 28px 9px 12px;
+    position: relative;
+}
+.contextDropdown-assemblyCity {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: -2px;
+    text-transform: uppercase;
+}
+.contextDropdown-assemblyName {
+    display: block;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.contextDropdown .icon-angle-down {
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.icon {
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    display: inline;
+    font-family: foodassembglyphs;
+    font-weight: 400;
+    height: auto;
+    line-height: normal;
+    text-transform: none;
+    vertical-align: baseline;
+    width: auto;
+}
+.helpDropdown {
+    color: #5C272F;
+    display: block;
+    font-size: 14px;
+    padding: 12px;
+}
+.userDropdown {
+    color: #5c272f;
+    display: inline-block;
+    font-size: 14px;
+    height: 48px;
+    padding: 9px 28px 9px 16px;
+    position: relative;
+}
+.basketDropdown-icon {
+    color: #C2837E;
+    margin-right: 6px;
+}
+.basketDropdown-count {
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 10px;
+    height: 15px;
+    left: 20px;
+    position: absolute;
+    top: 13px;
+    width: 15px;
+}
+
+/*  left nav */
+.leftNavigation {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    box-direction: normal;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 48px;
+    width: 130px;
+    z-index: 2;
+}
+.leftNavigationLink {
+    display: block;
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.theme-turquoise2 .leftNavigationLink-content {
+    background-color: #0f5b6d;
+}
+.theme-turquoise2 .leftNavigation:after, .theme-turquoise2 .leftNavigation:before {
+    background: #0f5b6d;
+}
+.leftNavigationLink img {
+    height: 50px;
+    width: 50px;
+}
+.leftNavigationLink-activeIndicator {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 11px;
+}
+.leftNavigationLink-content {
+    padding: 12px 10px 6px 21px;
+}
+.leftNavigation:after, .leftNavigation:before {
+    background: #532734;
+    content: '';
+}
+
+
+
+/*  centre*/
+.layout-fixed .pusher {
+    min-height: 0;
+    padding: 48px 0 0 119px;
+}
+.pusher {
+    -moz-transition: -moz-transform;
+    transition: transform;
+    background: #ffe8d2;
+    min-height: 1px;
+    position: relative;
+    vertical-align: top;
+}
+.breadcrumb {
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+.breadcrumb, .popup .pages>div, .popup .pusher {
+    background: 0 0;
+}
+.pages {
+    position: relative;
+}
+.pageheader{
+  margin-top: 1.5em;
+}
+.basket-section {
+    margin-left: 50px;
+}
+.livreur {
+    visibility: hidden;
+    width: 540px;
+    height: 200px;
+    background-color: #0f5b6d;
+    opacity: 1;
+    border-radius: 5px 5px 0 0;
+    margin-top: 20px;
+}
+.textdiv{
+ color :white;
+ font-family: fantasy;
+ font-weight: bold;
+ margin-left: 5px;
+}
+.textdiv2{
+ color :white;
+}
+
+.btnvalider{
+  font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-color: #f36f3f;
+  text-shadow: 0 1px 0 #b2380b;
+  background-image: linear-gradient(to bottom,#f36f3f 0,#F26531 30%,#F26531 70%,#e2470e 100%);
+  border: 1px solid #b2380b;
+  margin-left: 5px;
+}
+.btnselection{
+  margin-left: 5px;
+}
+.close2{
+ color: #270E0E;
+ float: right;
+ margin-right: 5px;
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: -4px;
+}
+.livraison{
+ visibility: hidden;
+
+}
